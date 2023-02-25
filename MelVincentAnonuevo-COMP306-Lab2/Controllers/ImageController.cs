@@ -43,11 +43,11 @@ namespace MelVincentAnonuevo_COMP306_Lab2.Controllers
 
         [HttpPost]
         public async Task<IActionResult> Create([FromForm] string caption,
-                                                Guid album_id,
+                                                Guid id,
                                                 [FromForm] IFormFile image,
                                                 string bucketName)
         {
-            var album = await _albumService.FindById(album_id);
+            var album = await _albumService.FindById(id);
             if (album == null)
             {
                 return NotFound("Album not found");
