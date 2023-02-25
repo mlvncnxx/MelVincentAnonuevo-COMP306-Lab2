@@ -24,7 +24,7 @@ builder.Services.AddScoped<IFileUploadService, LocalFileUploadService>();
 var connectionString = Environment.GetEnvironmentVariable("CONNECTION_STRING");
 if (connectionString == null)
 {
-    connectionString = builder.Configuration.GetConnectionString("lab2");
+    connectionString = builder.Configuration.GetConnectionString("images");
 }
 
 //Database

@@ -4,7 +4,7 @@ namespace MelVincentAnonuevo_COMP306_Lab2.Repository
 {
     public interface IAlbumRepository
     {
-        Task<Album> Add(Album image);
+        Task<Album> Add(Album album);
     
         Task<Album> FindById(Guid id);
 

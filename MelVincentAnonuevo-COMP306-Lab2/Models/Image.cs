@@ -18,9 +18,6 @@ namespace MelVincentAnonuevo_COMP306_Lab2.Models
         public string? Url { get; set; }
 
         [Required]
-        public string? Album_Id { get; set; }
-
-        [Required]
         public Album? Album { get; set; }
     }
 }

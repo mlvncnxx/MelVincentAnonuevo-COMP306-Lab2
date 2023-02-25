@@ -34,7 +34,7 @@ namespace MelVincentAnonuevo_COMP306_Lab2.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Albums");
+                    b.ToTable("albums");
                 });
 
             modelBuilder.Entity("MelVincentAnonuevo_COMP306_Lab2.Models.Image", b =>
@@ -45,10 +45,6 @@ namespace MelVincentAnonuevo_COMP306_Lab2.Migrations
 
                     b.Property<Guid>("AlbumId")
                         .HasColumnType("uuid");
-
-                    b.Property<string>("Album_Id")
-                        .IsRequired()
-                        .HasColumnType("text");
 
                     b.Property<string>("Caption")
                         .IsRequired()

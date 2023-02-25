@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Mel/Desktop/Winter 2023/COMP 306/MelVincentAnonuevo-COMP306-Lab2/MelVincentAnonuevo-COMP306-Lab2/MelVincentAnonuevo-COMP306-Lab2.csproj": {}
+    "E:\\Centennial College\\Winter 2023\\COMP 306\\Lab2\\MelVincentAnonuevo-comp-306-lab2\\MelVincentAnonuevo-COMP306-Lab2\\MelVincentAnonuevo-COMP306-Lab2.csproj": {}
   },
   "projects": {
-    "/Users/Mel/Desktop/Winter 2023/COMP 306/MelVincentAnonuevo-COMP306-Lab2/MelVincentAnonuevo-COMP306-Lab2/MelVincentAnonuevo-COMP306-Lab2.csproj": {
+    "E:\\Centennial College\\Winter 2023\\COMP 306\\Lab2\\MelVincentAnonuevo-comp-306-lab2\\MelVincentAnonuevo-COMP306-Lab2\\MelVincentAnonuevo-COMP306-Lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Mel/Desktop/Winter 2023/COMP 306/MelVincentAnonuevo-COMP306-Lab2/MelVincentAnonuevo-COMP306-Lab2/MelVincentAnonuevo-COMP306-Lab2.csproj",
+        "projectUniqueName": "E:\\Centennial College\\Winter 2023\\COMP 306\\Lab2\\MelVincentAnonuevo-comp-306-lab2\\MelVincentAnonuevo-COMP306-Lab2\\MelVincentAnonuevo-COMP306-Lab2.csproj",
         "projectName": "MelVincentAnonuevo-COMP306-Lab2",
-        "projectPath": "/Users/Mel/Desktop/Winter 2023/COMP 306/MelVincentAnonuevo-COMP306-Lab2/MelVincentAnonuevo-COMP306-Lab2/MelVincentAnonuevo-COMP306-Lab2.csproj",
-        "packagesPath": "/Users/Mel/.nuget/packages/",
-        "outputPath": "/Users/Mel/Desktop/Winter 2023/COMP 306/MelVincentAnonuevo-COMP306-Lab2/MelVincentAnonuevo-COMP306-Lab2/obj/",
+        "projectPath": "E:\\Centennial College\\Winter 2023\\COMP 306\\Lab2\\MelVincentAnonuevo-comp-306-lab2\\MelVincentAnonuevo-COMP306-Lab2\\MelVincentAnonuevo-COMP306-Lab2.csproj",
+        "packagesPath": "C:\\Users\\melvi\\.nuget\\packages\\",
+        "outputPath": "E:\\Centennial College\\Winter 2023\\COMP 306\\Lab2\\MelVincentAnonuevo-comp-306-lab2\\MelVincentAnonuevo-COMP306-Lab2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/Mel/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\melvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -99,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

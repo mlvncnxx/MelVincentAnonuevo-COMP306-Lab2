@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MelVincentAnonuevo_COMP306_Lab2.Controllers
 {
-    [Route("album")]
+    [Route("albums")]
     public class AlbumController : BaseController<AlbumController>
     {
         private readonly IAlbumService _albumService;
@@ -31,7 +31,7 @@ namespace MelVincentAnonuevo_COMP306_Lab2.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{album_id}")]
         public async Task<IActionResult> GetById(Guid id)
         {
            var album = await _albumService.FindById(id);
@@ -53,7 +53,7 @@ namespace MelVincentAnonuevo_COMP306_Lab2.Controllers
             return Ok(await _albumService.FindAll());
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("{album_id}")]
         public async Task<IActionResult> DeleteById(Guid id)
         {
             var album = await _albumService.FindById(id);

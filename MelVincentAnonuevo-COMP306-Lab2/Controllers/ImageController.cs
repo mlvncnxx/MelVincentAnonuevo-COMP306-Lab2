@@ -30,7 +30,7 @@ namespace MelVincentAnonuevo_COMP306_Lab2.Controllers
             _s3Client = s3Client;
         }
 
-        [HttpGet("{caption}")]
+        [HttpGet("{image_id}")]
         public async Task<IActionResult> FindByCaption(Guid album_id, string caption)
         {
             var image = await _imageService.FindByCaption(caption);
@@ -90,7 +90,7 @@ namespace MelVincentAnonuevo_COMP306_Lab2.Controllers
             return Ok(newImage);
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("{image_id}")]
         public async Task<IActionResult> DeleteById(string bucketName, Guid album_id, Guid id)
         {
             var image = await _imageService.FindById(id);
