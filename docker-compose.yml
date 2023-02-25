@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  api:
+    build: ./MelVincentAnonuevo-COMP306-Lab2/.
+    container_name: lab2_api
+    ports:
+      - "5001:80"
+    depends_on:
+      - db
+    restart: always
+    environment:
+      - CONNECTION_STRING=SERVER=db;Database:images;User Id=developoer;Password=secret
+      - S3_USER_ID=AKIAZCMIMLOVJNW2AAML
+      - S3_SECRET_KEY=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
+      - S3_BUCKET=comp306-lab2
+  db:
+    image: postgres:15.2-alpine
+    volumes:
+      -./database:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=images
+      - POSTGRES_USER=developer
+      - POSTGRES_PASSWORD=secret
