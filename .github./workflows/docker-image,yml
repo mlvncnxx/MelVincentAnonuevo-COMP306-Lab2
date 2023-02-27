@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build ./MelVincentAnonuevo-comp306-lab2/. --tag my-image-name:$(date +%s)
+      run: docker build ./MelVincentAnonuevo-COMP306-Lab2/. --tag my-image-name:$(date +%s)
